@@ -5,6 +5,8 @@ height: 1024px;
 Signup screen-
 340 + 150 = 490
 
+Rest
+max-w: total - left margin - 490
 
 ALmost one third of a screen
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card({title, subtitle, body, classVars='min-w-[350px]'}) {
   return (
-    // Only the height is fixed ~ 136px + padding
+    // Only the height is fixed ~ 136px + padding/2
     // padding - 20px 
     // fixing the width to 350px or 100% whichever is smaller
     <article className={`p-5 bg-white rounded-xl h-[156px] ${classVars}`}>
