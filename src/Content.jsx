@@ -42,7 +42,7 @@ export default function Content() {
 				</div>
 			</section>
 
-			<section className='testimonials relative py-4 mb-16 xl:mb-[unset]'>
+			<section className='testimonials relative py-4 mb-72 xl:mb-[unset]'>
 				<h2 className='text-xl xl:text-2xl border-b border-[#E5E5E680] font-medium text-[var(--text-secondary)] pb-5  text-center xl:text-right me-6 mb-10'>
 					Testimonials
 				</h2>

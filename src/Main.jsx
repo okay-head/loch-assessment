@@ -1,5 +1,6 @@
 import Content from './Content'
 import Sidebar from './Sidebar'
+import Sidebar2 from './Sidebar2'
 
 export default function Main() {
 	return (
@@ -8,7 +9,9 @@ export default function Main() {
 			<div className='main-content mx-[var(--page-margin-lr)] pt-[var(--page-margin-t)] pb-[var(--page-margin-b)] overflow-hidden z-10'>
 				<Content />
 			</div>
+
 			<Sidebar />
+			<Sidebar2 />
 		</div>
 	)
 }
