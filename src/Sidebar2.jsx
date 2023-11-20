@@ -9,7 +9,7 @@ export default function Sidebar2() {
 			id='sidebar-2'
 			className='xl:hidden flex flex-col mx-auto gap-4 fixed left-0 right-0 bottom-0 w-full bg-white rounded-t-2xl p-6 text-sm'
 		>
-			<h1 className='text-xl text-[#B0B1B3]'>Sign up for exclusive access</h1>
+			<h1 className='text-xl text-[#B0B1B3] font-semibold'>Sign up for exclusive access</h1>
 			<form id='sidebar-2-form' onSubmit={(e)=>{submitHandler(e)}}>
 				<input
 					name='emai'
