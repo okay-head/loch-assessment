@@ -1,6 +1,6 @@
 export default function Sidebar() {
 	return (
-		<div className='bg-white'>
+		<div className='bg-white hidden xl:block z-10'>
 			<div className='h-screen grid place-items-center'>
 				<div className=' flex flex-col max-w-[340px] mx-auto gap-6 fixed'>
 					<h1 className='text-4xl text-[#B0B1B3] pb-2'>

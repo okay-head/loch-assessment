@@ -3,8 +3,8 @@ import NotificationCardContainer from './notifications/NotificationCardContainer
 
 export default function Content() {
 	return (
-		<div className='max-w-[768px]'>
-			<section className='section1 relative grid grid-cols-2 gap-8 text-[var(--text-secondary)]'>
+		<div className='xl:max-w-[768px]'>
+			<section className='section1 relative xl:grid grid-cols-2 gap-8 text-[var(--text-secondary)]'>
 				<img src='/Bell(1).svg' alt='bell' className='absolute left-0 -top-8' />
 				<div className='text'>
 					<h2 className='text-3xl leading-[var(--line-h-larger)] my-4'>
@@ -21,7 +21,7 @@ export default function Content() {
 			</section>
 
 			{/* Exact copy , use multiline */}
-			<section className='section2 relative grid grid-cols-2 gap-8 text-[--text-secondary] my-[72px]'>
+			<section className='section2 relative xl:grid grid-cols-2 gap-8 text-[--text-secondary] my-[72px]'>
 
 				<div className='relative text order-2 text-right self-center'>
 				<img src='/Eye.svg' alt='bell' className='absolute right-0 -top-8' />
