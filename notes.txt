@@ -1,0 +1,16 @@
+Total dimensions-
+width: 1440px;
+height: 1024px;
+
+Signup screen-
+340 + 150 = 490
+
+
+ALmost one third of a screen
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Use the given margins
