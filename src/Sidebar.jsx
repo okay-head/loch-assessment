@@ -1,4 +1,8 @@
 export default function Sidebar() {
+	const submitHandler = (e) => {
+		e.preventDefault()
+		window.open('https://app.loch.one/welcome')
+	}
 	return (
 		<div className='bg-white hidden xl:block z-10'>
 			<div className='h-screen grid place-items-center'>
@@ -6,11 +10,24 @@ export default function Sidebar() {
 					<h1 className='text-4xl text-[#B0B1B3] pb-2'>
 						Sign up for exclusive access
 					</h1>
-					<input
-						placeholder='Your email address'
-						className='input-shadow rounded-md py-3 px-6 border border-[#E5E5E6]'
-					></input>
-					<button className='rounded-md bg-[var(--text-primary)] w-full text-white py-3 px-6'>
+					<form
+						id='sidebar-form'
+						onSubmit={(e) => {
+							submitHandler(e)
+						}}
+					>
+						<input
+							type='email'
+							name='email'
+							placeholder='Your email address'
+							className='w-full input-shadow rounded-md py-3 px-6 border border-[#E5E5E6]'
+						></input>
+					</form>
+					<button
+						type='submit'
+						form='sidebar-form'
+						className='rounded-md bg-[var(--text-primary)] w-full text-white py-3 px-6'
+					>
 						Get started
 					</button>
 					<div className='font-semibold absolute -bottom-20 -left-2 w-[360px]'>

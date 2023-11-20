@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 :root {
+	--page-margin-lr-mb: 30px;
 	--page-margin-lr: 60px;
 	--page-margin-t: 92px;
 	--page-margin-b: 60px;

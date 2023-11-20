@@ -15,7 +15,7 @@ export default function Content() {
 						on-chain or when a dormant whale you care about becomes active.
 					</p>
 				</div>
-				<div className='graphic text-[var(--text-primary)] overflow-hidden text-left'>
+				<div className='graphic text-[var(--text-primary)] overflow-hidden text-left w-min mx-auto'>
 					<NotificationCardContainer />
 				</div>
 			</section>
