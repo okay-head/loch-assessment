@@ -3,7 +3,7 @@ import Card from './Card'
 
 export default function CardContainer() {
 	return (
-		<div className='flex overflow-hidden gap-4 ms-[160px]' >
+		<div className='flex overflow-hidden gap-4 xl:ms-[160px]' >
 			<Card
 				title={'Jack F'}
 				subtitle={'Ex Blackrock PM'}
