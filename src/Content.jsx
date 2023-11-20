@@ -22,15 +22,15 @@ export default function Content() {
 
 			{/* Exact copy , use multiline */}
 			<section className='section2 relative grid grid-cols-2 gap-8 text-[--text-secondary] my-[72px]'>
-				<img src='/Eye.svg' alt='bell' className='absolute right-0 -top-8' />
 
-				<div className='text order-2 text-right'>
+				<div className='relative text order-2 text-right self-center'>
+				<img src='/Eye.svg' alt='bell' className='absolute right-0 -top-8' />
 					<h2 className='text-3xl leading-[var(--line-h-larger)] my-4'>
-						Watch what the whales are doing
+						Watch what the <br /> whales are doing
 					</h2>
 					<p className='opacity-[0.7] text-base font-normal leading-[var(--line-h-normal)]'>
 						All whales are not equal. Know exactly what the whales impacting
-						YOUR portfolio are doing.
+						YOUR <br /> portfolio are doing.
 					</p>
 				</div>
 				<div className='graphic order-1'>
